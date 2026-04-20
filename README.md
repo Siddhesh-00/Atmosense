@@ -126,7 +126,7 @@ Follow these steps to get your Atmosense up and running in minutes.
 
 1. Clone the Repository
 bash
-git clone https://github.com/yourusername/atmosense.git
+git clone https://github.com/Siddhesh-00/atmosense.git
 cd atmosense
 2. Wire the Hardware
 Connect all components according to the Circuit Diagram above.
