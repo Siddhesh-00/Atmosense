@@ -1,0 +1,13 @@
+# Arduino
+*.ino.elf
+*.ino.hex
+*.ino.with_bootloader.hex
+*.o
+*.d
+build/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
