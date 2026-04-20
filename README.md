@@ -6,22 +6,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Atmosense** is a compact, feature‑rich environmental monitoring system that tracks **air quality**, **temperature**, and **atmospheric pressure** in real time. It displays data on a crisp OLED screen, sounds an alarm when pollution rises, and uploads everything to the **Blynk cloud** so you can check conditions from anywhere.
-
-
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>✅ Normal Air Quality</b></td>
       <td align="center"><b>🚨 Alarm Active</b></td>
+      <td align="center"><b>✅ Normal Air</b></td>
     </tr>
     <tr>
-      <td><img src="docs/OLED_ALARM.jpg" width="280" alt="OLED Dashboard - Normal"/></td>
-      <td><img src="docs/OLED_NORMAL.jpg" width="280" alt="OLED Dashboard - Alarm"/></td>
+      <td><img src="Docs/OLED_ALARM.jpg" width="280" alt="OLED Dashboard - Alrarm"/></td>
+      <td><img src="Docs/OLED_NORMAL.jpg" width="280" alt="OLED Dashboard - Normal"/></td>
     </tr>
   </table>
-  <p><em>Left: Normal operation (green LED, "Normal" status). Right: Poor air quality detected (red LED, "ALARM" status, buzzer active).</em></p>
-</div>
----
 
 ## ✨ Features
 
