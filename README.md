@@ -121,54 +121,68 @@ Upload `atmosense_esp8266.ino` after inserting your Blynk credentials.
 4. Copy the **Template ID**, **Device Name**, and **Auth Token** into the ESP8266 code.
 
 ---
-🚀 Getting Started
+## 🚀 Getting Started
 Follow these steps to get your Atmosense up and running in minutes.
 
-📦 1. Clone the Repository
+1. Clone the Repository
 bash
 git clone https://github.com/yourusername/atmosense.git
 cd atmosense
-🔌 2. Wire the Hardware
+2. Wire the Hardware
 Connect all components according to the Circuit Diagram above.
 Pay special attention to the voltage divider between UNO and NodeMCU!
 
-💻 3. Upload the Code
+3. Upload the Code
 Board	Sketch File	Instructions
 Arduino Uno	arduino/atmosense_uno.ino	Open in Arduino IDE, install required libraries, select Uno board, upload.
 NodeMCU	esp8266/atmosense_esp8266.ino	Open in Arduino IDE, insert your WiFi and Blynk credentials, upload.
-⚡ 4. Power It Up
+4. Power It Up
 Connect the 5 V boost converter output to the Arduino's 5 V pin.
 
 Or use a USB cable for testing (Arduino only – NodeMCU needs separate power for cloud).
 
-👀 5. Watch the Magic
+5. Watch the Magic
 The OLED will display an animated splash screen, then switch to the live dashboard. Open the Blynk app on your phone and see your sensor data streaming in real‑time!
 
-📸 Gallery
+## 📸 Gallery
 <div align="center"> <table> <tr> <td align="center"><b>✨ Splash Screen</b></td> <td align="center"><b>📊 Main Dashboard</b></td> <td align="center"><b>📱 Blynk App</b></td> </tr> <tr> <td><img src="docs/splash.jpg" width="200" alt="Splash Screen"/></td> <td><img src="docs/dashboard.jpg" width="200" alt="OLED Dashboard"/></td> <td><img src="docs/blynk.jpg" width="200" alt="Blynk App"/></td> </tr> </table> <p><em>Add your own photos to the <code>docs/</code> folder – the placeholders above will update automatically.</em></p> </div>
-🔋 Battery Life Estimate
-Your dual‑18650 power system provides reliable portable operation. Here's the runtime breakdown:
 
-Parameter	Value
-🔋 Battery Capacity	4400 mAh @ 3.7 V (16.3 Wh)
-⚡ Boost Efficiency	~85%
-🔌 Usable Energy at 5 V	~13.8 Wh (2768 mAh)
-📊 Average Current Draw	~350 mA
-⏱️ Estimated Runtime	~8 hours (full charge)
-💡 Power‑Saving Tip: Enable deep sleep on the ESP8266 between transmissions to extend runtime to 15–20 hours!
+## 🔋 Battery Life Estimate
 
-📜 License
-This project is open‑source and available under the MIT License.
-See the LICENSE file for full terms.
+Your dual-18650 power system provides reliable portable operation.  
+Here’s the runtime breakdown:
 
-🙌 Acknowledgements
-This project stands on the shoulders of amazing open‑source work:
+| Parameter | Value |
+|----------|------|
+| 🔋 Battery Capacity | 4400 mAh @ 3.7 V (16.3 Wh) |
+| ⚡ Boost Efficiency | ~85% |
+| 🔌 Usable Energy @ 5V | ~13.8 Wh (≈2768 mAh) |
+| 📊 Average Current Draw | ~350 mA |
+| ⏱️ Estimated Runtime | ~8 hours (full charge) |
 
-Library/Tool	Used For	Link
-U8g2	OLED graphics & animations	github.com/olikraus/u8g2
-Adafruit BMP280	Temperature/pressure sensor	github.com/adafruit/Adafruit_BMP280_Library
-Blynk	Cloud connectivity & dashboard	blynk.io
-Arduino & ESP8266	Core platforms	arduino.cc · esp8266.com
-<p align="center">✨ Thank you for checking out Atmosense! ✨</p> ```
-Simply replace the old sections with this redesigned version. It uses tables, emojis, and centered layouts for a more polished, visual appearance. Let me know if you'd like any further adjustments!
+💡 **Power-Saving Tip:**  
+Enable deep sleep on the ESP8266 between transmissions to extend runtime to **15–20 hours**.
 
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.  
+See the `LICENSE` file for full terms.
+
+---
+
+## 🙌 Acknowledgements
+
+This project stands on the shoulders of amazing open-source work:
+
+| Library / Tool | Used For | Link |
+|---------------|--------|------|
+| U8g2 | OLED graphics & animations | https://github.com/olikraus/u8g2 |
+| Adafruit BMP280 | Temperature & pressure sensor | https://github.com/adafruit/Adafruit_BMP280_Library |
+| Blynk | Cloud connectivity & dashboard | https://blynk.io |
+| Arduino & ESP8266 Core | Platform support | https://arduino.cc · https://esp8266.com |
+
+---
+
+✨ Thank you for checking out **Atmosense!** ✨
