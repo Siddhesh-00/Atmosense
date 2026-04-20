@@ -17,9 +17,10 @@
       <td><img src="Docs/OLED_NORMAL.jpg" width="280" alt="OLED Dashboard - Normal"/></td>
     </tr>
   </table>
-
-## ✨ Features
-
+</div>
+  
+  
+  ## ✨ Features
 | Category           | Details                                                                 |
 |--------------------|-------------------------------------------------------------------------|
 | 🌡️ **Sensors**      | BMP280 (temp + pressure), MQ‑135 (air quality / CO₂ equivalent)          |
@@ -51,11 +52,7 @@
 ---
 
 ## 🔌 Circuit Diagram
-
-> 📌 **Place your schematic image here** – for example `docs/circuit_diagram.png`
-(Insert your circuit diagram image – Fritzing, KiCad, or hand‑drawn)
-
-text
+![Circuit Diargam](https://github.com/Siddhesh-00/Atmosense/blob/main/Docs/Circuit%20Diagram.png)
 
 ### 🔗 Wiring Summary
 
@@ -147,8 +144,12 @@ Or use a USB cable for testing (Arduino only – NodeMCU needs separate power fo
 5. Watch the Magic
 The OLED will display an animated splash screen, then switch to the live dashboard. Open the Blynk app on your phone and see your sensor data streaming in real‑time!
 
-## 📸 Gallery
-<div align="center"> <table> <tr> <td align="center"><b>✨ Splash Screen</b></td> <td align="center"><b>📊 Main Dashboard</b></td> <td align="center"><b>📱 Blynk App</b></td> </tr> <tr> <td><img src="docs/splash.jpg" width="200" alt="Splash Screen"/></td> <td><img src="docs/dashboard.jpg" width="200" alt="OLED Dashboard"/></td> <td><img src="docs/blynk.jpg" width="200" alt="Blynk App"/></td> </tr> </table> <p><em>Add your own photos to the <code>docs/</code> folder – the placeholders above will update automatically.</em></p> </div>
+## 📸 Blynk Dashboard
+
+<p align="left">
+  <img src="Docs/Atmosense_Blynk.png" alt="Blynk Dashboard" width="300"/>
+  <br/>
+</p>
 
 ## 🔋 Battery Life Estimate
 
