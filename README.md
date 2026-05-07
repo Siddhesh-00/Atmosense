@@ -77,7 +77,6 @@
 | D2 (RX) | TX                  |
 | GND     | GND                 |
 
-> ⚠️ **Important**: Disconnect RX and TX pins from the ESP8266 while flashing code to the ESP8266.
 
 **Power System**
 - Two 18650 cells in **parallel** → 3.7 V, 4400 mAh
@@ -102,6 +101,7 @@ Upload the sketch `atmosense_uno.ino` to the Arduino.
 - Install **ESP8266WiFi** (built‑in with ESP8266 board package)
 
 Upload `atmosense_esp8266.ino` after inserting your Blynk credentials.
+> ⚠️ **Important**: Disconnect RX and TX pins from the ESP8266 while flashing code to the ESP8266.
 
 ---
 
