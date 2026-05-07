@@ -77,7 +77,7 @@
 | D2 (RX) | TX                  |
 | GND     | GND                 |
 
-> ⚠️ **Important**: Use a **Disconnect RX and TX pins from the ESP8266 while flashing code to the ESP8266.
+> ⚠️ **Important**: Disconnect RX and TX pins from the ESP8266 while flashing code to the ESP8266.
 
 **Power System**
 - Two 18650 cells in **parallel** → 3.7 V, 4400 mAh
